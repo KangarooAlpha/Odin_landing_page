@@ -1,0 +1,10 @@
+
+.header {
+    display: flex;
+    background-color: aqua;
+    padding: 100px;
+}
+
+.header-links {
+    display: flex;
+}
