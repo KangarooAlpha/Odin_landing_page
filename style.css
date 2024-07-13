@@ -30,5 +30,38 @@ body{
 
 .hero-section{
     display: flex;
-    flex-grow: 1;
+    flex: 1 auto;
+    background-color: #1f2937;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-content{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-placeholder{
+    margin-left: auto;
+    background-color: grey;
+    padding: 100px 150px;
+    margin: 200px 100px;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: auto;
 }
